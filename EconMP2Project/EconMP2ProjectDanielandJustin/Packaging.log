@@ -1,0 +1,331 @@
+2017-12-07 18:46:52 +0000  Initial pipeline context: <IDEDistributionProcessingPipelineContext: 0x7fc7f6089f60; archive(resolved)='<IDEArchive: 0x7fc8097e1180>', distributionTask(resolved)='2', distributionMethod(resolved)='<IDEDistributionMethodDirectDistribution: 0x7fc7f3027750>', team(resolved)='<IDEProvisioningBasicTeam 0x7fc7f63779b0: teamID: 72YYJ825DR, teamName: Seoukjun Kim>'>
+	Chain (10, self inclusive):
+	<IDEDistributionProcessingPipelineContext: 0x7fc7f6089f60; archive = '<IDEArchive: 0x7fc8097e1180>', distributionMethod='<IDEDistributionMethodDirectDistribution: 0x7fc7f3027750>', team='<IDEProvisioningBasicTeam 0x7fc7f63779b0: teamID: 72YYJ825DR, teamName: Seoukjun Kim>'>
+	<IDEDistributionProcessingPipelineContext: 0x7fc80c55c630; archive = '<IDEArchive: 0x7fc8097e1180>', distributionMethod='<IDEDistributionMethodDirectDistribution: 0x7fc7f3027750>', team='<IDEProvisioningBasicTeam 0x7fc7f63779b0: teamID: 72YYJ825DR, teamName: Seoukjun Kim>'>
+	<IDEDistributionContext: 0x7fc7f55c6c80; archive = '<IDEArchive: 0x7fc8097e1180>', distributionMethod='<IDEDistributionMethodDirectDistribution: 0x7fc7f3027750>', team='<IDEProvisioningBasicTeam 0x7fc7f63779b0: teamID: 72YYJ825DR, teamName: Seoukjun Kim>'>
+	<IDEDistributionContext: 0x7fc80958d820; archive = '<IDEArchive: 0x7fc8097e1180>', distributionMethod='<IDEDistributionMethodDirectDistribution: 0x7fc7f3027750>', team='<IDEProvisioningBasicTeam 0x7fc7f63779b0: teamID: 72YYJ825DR, teamName: Seoukjun Kim>'>
+	<IDEDistributionContext: 0x7fc7f6390cc0; archive = '<IDEArchive: 0x7fc8097e1180>', distributionMethod='<IDEDistributionMethodDirectDistribution: 0x7fc7f3027750>', team='<IDEProvisioningBasicTeam 0x7fc7f63779b0: teamID: 72YYJ825DR, teamName: Seoukjun Kim>'>
+	<IDEDistributionContext: 0x7fc8094f6220; archive = '<IDEArchive: 0x7fc8097e1180>', distributionMethod='<IDEDistributionMethodDirectDistribution: 0x7fc7f3027750>', team='<IDEProvisioningBasicTeam 0x7fc7f63779b0: teamID: 72YYJ825DR, teamName: Seoukjun Kim>'>
+	<IDEDistributionContext: 0x7fc7f63ba9a0; archive = '<IDEArchive: 0x7fc8097e1180>', distributionMethod='<IDEDistributionMethodDirectDistribution: 0x7fc7f3027750>', team='<IDEProvisioningBasicTeam 0x7fc7f63779b0: teamID: 72YYJ825DR, teamName: Seoukjun Kim>'>
+	<IDEDistributionContext: 0x7fc7f63e89d0; archive = '<IDEArchive: 0x7fc8097e1180>', distributionMethod='<IDEDistributionMethodDirectDistribution: 0x7fc7f3027750>', team='<IDEProvisioningBasicTeam 0x7fc7f63779b0: teamID: 72YYJ825DR, teamName: Seoukjun Kim>'>
+	<IDEDistributionContext: 0x7fc7f3101980; archive = '<IDEArchive: 0x7fc8097e1180>', distributionMethod='<IDEDistributionMethodDirectDistribution: 0x7fc7f3027750>', team='(null)'>
+	<IDEDistributionContext: 0x7fc7f459c520; archive = '<IDEArchive: 0x7fc8097e1180>', distributionMethod='(null)', team='(null)'>
+</IDEDistributionProcessingPipelineContext: 0x7fc7f6089f60>
+2017-12-07 18:46:52 +0000  Processing step: IDEDistributionCreateDestRootStep
+2017-12-07 18:46:52 +0000  Processing step: IDEDistributionCopyItemStep
+2017-12-07 18:46:52 +0000  Running /usr/bin/ditto '-V' '/Users/danielkim/Library/Developer/Xcode/Archives/2017-12-07/EconMP2Project 12-7-17, 1.46 PM.xcarchive/Products/Applications/EconMP2Project.app' '/var/folders/1s/s3b8sz5x74x8j1jnxdbj5nqw0000gn/T/XcodeDistPipeline.fyS/Root/Applications/EconMP2Project.app'
+2017-12-07 18:46:52 +0000  >>> Copying /Users/danielkim/Library/Developer/Xcode/Archives/2017-12-07/EconMP2Project 12-7-17, 1.46 PM.xcarchive/Products/Applications/EconMP2Project.app 
+2017-12-07 18:46:52 +0000  copying file ./Contents/_CodeSignature/CodeResources ... 
+2017-12-07 18:46:52 +0000  12950 bytes for ./Contents/_CodeSignature/CodeResources
+2017-12-07 18:46:52 +0000  copying file ./Contents/Frameworks/libswiftAppKit.dylib ... 
+2017-12-07 18:46:52 +0000  138592 bytes for ./Contents/Frameworks/libswiftAppKit.dylib
+copying file ./Contents/Frameworks/libswiftCore.dylib ... 
+2017-12-07 18:46:52 +0000  7174448 bytes for ./Contents/Frameworks/libswiftCore.dylib
+copying file ./Contents/Frameworks/libswiftCoreData.dylib ... 
+2017-12-07 18:46:52 +0000  99520 bytes for ./Contents/Frameworks/libswiftCoreData.dylib
+copying file ./Contents/Frameworks/libswiftCoreFoundation.dylib ... 
+31792 bytes for ./Contents/Frameworks/libswiftCoreFoundation.dylib
+copying file ./Contents/Frameworks/libswiftCoreGraphics.dylib ... 
+165232 bytes for ./Contents/Frameworks/libswiftCoreGraphics.dylib
+copying file ./Contents/Frameworks/libswiftCoreImage.dylib ... 
+40288 bytes for ./Contents/Frameworks/libswiftCoreImage.dylib
+copying file ./Contents/Frameworks/libswiftDarwin.dylib ... 
+75728 bytes for ./Contents/Frameworks/libswiftDarwin.dylib
+copying file ./Contents/Frameworks/libswiftDispatch.dylib ... 
+2017-12-07 18:46:52 +0000  308400 bytes for ./Contents/Frameworks/libswiftDispatch.dylib
+copying file ./Contents/Frameworks/libswiftFoundation.dylib ... 
+2017-12-07 18:46:52 +0000  2801280 bytes for ./Contents/Frameworks/libswiftFoundation.dylib
+copying file ./Contents/Frameworks/libswiftIOKit.dylib ... 
+2017-12-07 18:46:52 +0000  36000 bytes for ./Contents/Frameworks/libswiftIOKit.dylib
+copying file ./Contents/Frameworks/libswiftMetal.dylib ... 
+68464 bytes for ./Contents/Frameworks/libswiftMetal.dylib
+copying file ./Contents/Frameworks/libswiftObjectiveC.dylib ... 
+2017-12-07 18:46:52 +0000  61952 bytes for ./Contents/Frameworks/libswiftObjectiveC.dylib
+copying file ./Contents/Frameworks/libswiftos.dylib ... 
+2017-12-07 18:46:52 +0000  48064 bytes for ./Contents/Frameworks/libswiftos.dylib
+copying file ./Contents/Frameworks/libswiftQuartzCore.dylib ... 
+2017-12-07 18:46:52 +0000  52736 bytes for ./Contents/Frameworks/libswiftQuartzCore.dylib
+copying file ./Contents/Frameworks/libswiftXPC.dylib ... 
+2017-12-07 18:46:52 +0000  36096 bytes for ./Contents/Frameworks/libswiftXPC.dylib
+2017-12-07 18:46:52 +0000  copying file ./Contents/Info.plist ... 
+2017-12-07 18:46:52 +0000  1471 bytes for ./Contents/Info.plist
+copying file ./Contents/MacOS/EconMP2Project ... 
+2017-12-07 18:46:52 +0000  81040 bytes for ./Contents/MacOS/EconMP2Project
+2017-12-07 18:46:52 +0000  copying file ./Contents/PkgInfo ... 
+2017-12-07 18:46:52 +0000  8 bytes for ./Contents/PkgInfo
+copying file ./Contents/Resources/archived-expanded-entitlements.xcent ... 
+2017-12-07 18:46:52 +0000  310 bytes for ./Contents/Resources/archived-expanded-entitlements.xcent
+copying file ./Contents/Resources/Assets.car ... 
+2017-12-07 18:46:52 +0000  492023 bytes for ./Contents/Resources/Assets.car
+2017-12-07 18:46:52 +0000  copying file ./Contents/Resources/Base.lproj/Main.storyboardc/08x-vL-EPZ-view-1Ee-dN-Cpq.nib ... 
+2017-12-07 18:46:52 +0000  14402 bytes for ./Contents/Resources/Base.lproj/Main.storyboardc/08x-vL-EPZ-view-1Ee-dN-Cpq.nib
+copying file ./Contents/Resources/Base.lproj/Main.storyboardc/e7i-g4-YvA-view-2ba-7F-oqq.nib ... 
+2017-12-07 18:46:52 +0000  11451 bytes for ./Contents/Resources/Base.lproj/Main.storyboardc/e7i-g4-YvA-view-2ba-7F-oqq.nib
+copying file ./Contents/Resources/Base.lproj/Main.storyboardc/Info.plist ... 
+2017-12-07 18:46:52 +0000  1009 bytes for ./Contents/Resources/Base.lproj/Main.storyboardc/Info.plist
+copying file ./Contents/Resources/Base.lproj/Main.storyboardc/jix-yq-xBs-view-3td-zx-ur2.nib ... 
+2017-12-07 18:46:52 +0000  11930 bytes for ./Contents/Resources/Base.lproj/Main.storyboardc/jix-yq-xBs-view-3td-zx-ur2.nib
+copying file ./Contents/Resources/Base.lproj/Main.storyboardc/MainMenu.nib ... 
+2017-12-07 18:46:52 +0000  36290 bytes for ./Contents/Resources/Base.lproj/Main.storyboardc/MainMenu.nib
+copying file ./Contents/Resources/Base.lproj/Main.storyboardc/NSViewController-08x-vL-EPZ.nib ... 
+2017-12-07 18:46:52 +0000  3064 bytes for ./Contents/Resources/Base.lproj/Main.storyboardc/NSViewController-08x-vL-EPZ.nib
+copying file ./Contents/Resources/Base.lproj/Main.storyboardc/NSViewController-e7i-g4-YvA.nib ... 
+2017-12-07 18:46:52 +0000  2349 bytes for ./Contents/Resources/Base.lproj/Main.storyboardc/NSViewController-e7i-g4-YvA.nib
+copying file ./Contents/Resources/Base.lproj/Main.storyboardc/NSViewController-jix-yq-xBs.nib ... 
+2017-12-07 18:46:52 +0000  3064 bytes for ./Contents/Resources/Base.lproj/Main.storyboardc/NSViewController-jix-yq-xBs.nib
+copying file ./Contents/Resources/Base.lproj/Main.storyboardc/NSViewController-XfG-lQ-9wD.nib ... 
+2017-12-07 18:46:52 +0000  2293 bytes for ./Contents/Resources/Base.lproj/Main.storyboardc/NSViewController-XfG-lQ-9wD.nib
+copying file ./Contents/Resources/Base.lproj/Main.storyboardc/NSWindowController-B8D-0N-5wS.nib ... 
+2017-12-07 18:46:52 +0000  4149 bytes for ./Contents/Resources/Base.lproj/Main.storyboardc/NSWindowController-B8D-0N-5wS.nib
+copying file ./Contents/Resources/Base.lproj/Main.storyboardc/XfG-lQ-9wD-view-m2S-Jp-Qdl.nib ... 
+2017-12-07 18:46:52 +0000  10186 bytes for ./Contents/Resources/Base.lproj/Main.storyboardc/XfG-lQ-9wD-view-m2S-Jp-Qdl.nib
+2017-12-07 18:46:52 +0000  copying file ./Contents/Resources/QuizResultViewController.nib ... 
+1302 bytes for ./Contents/Resources/QuizResultViewController.nib
+2017-12-07 18:46:52 +0000  copying file ./Contents/Resources/QuizViewController.nib ... 
+1296 bytes for ./Contents/Resources/QuizViewController.nib
+copying file ./Contents/Resources/ReviewViewController.nib ... 
+2017-12-07 18:46:52 +0000  1298 bytes for ./Contents/Resources/ReviewViewController.nib
+2017-12-07 18:46:52 +0000  /usr/bin/ditto exited with 0
+2017-12-07 18:46:52 +0000  Processing step: IDEDistributionEmbedProfileStep
+2017-12-07 18:46:52 +0000  Skipping profile for item: <IDEDistributionItem: 0x7fc8095a30e0 'com.apple.dt.runtime.swiftAppKit' '<DVTFilePath:0x7fc7f313aab0:'/Users/danielkim/Library/Developer/Xcode/Archives/2017-12-07/EconMP2Project 12-7-17, 1.46 PM.xcarchive/Products/Applications/EconMP2Project.app/Contents/Frameworks/libswiftAppKit.dylib'>'>
+2017-12-07 18:46:52 +0000  Skipping profile for item: <IDEDistributionItem: 0x7fc7f54c4310 'com.apple.dt.runtime.swiftCore' '<DVTFilePath:0x7fc7f31604a0:'/Users/danielkim/Library/Developer/Xcode/Archives/2017-12-07/EconMP2Project 12-7-17, 1.46 PM.xcarchive/Products/Applications/EconMP2Project.app/Contents/Frameworks/libswiftCore.dylib'>'>
+2017-12-07 18:46:52 +0000  Skipping profile for item: <IDEDistributionItem: 0x7fc7f46e18c0 'com.apple.dt.runtime.swiftCoreData' '<DVTFilePath:0x7fc7f31f6200:'/Users/danielkim/Library/Developer/Xcode/Archives/2017-12-07/EconMP2Project 12-7-17, 1.46 PM.xcarchive/Products/Applications/EconMP2Project.app/Contents/Frameworks/libswiftCoreData.dylib'>'>
+2017-12-07 18:46:52 +0000  Skipping profile for item: <IDEDistributionItem: 0x7fc7f35b5bf0 'com.apple.dt.runtime.swiftCoreFoundation' '<DVTFilePath:0x7fc7f508c430:'/Users/danielkim/Library/Developer/Xcode/Archives/2017-12-07/EconMP2Project 12-7-17, 1.46 PM.xcarchive/Products/Applications/EconMP2Project.app/Contents/Frameworks/libswiftCoreFoundation.dylib'>'>
+2017-12-07 18:46:52 +0000  Skipping profile for item: <IDEDistributionItem: 0x7fc7f559d8d0 'com.apple.dt.runtime.swiftCoreGraphics' '<DVTFilePath:0x7fc7f622adb0:'/Users/danielkim/Library/Developer/Xcode/Archives/2017-12-07/EconMP2Project 12-7-17, 1.46 PM.xcarchive/Products/Applications/EconMP2Project.app/Contents/Frameworks/libswiftCoreGraphics.dylib'>'>
+2017-12-07 18:46:52 +0000  Skipping profile for item: <IDEDistributionItem: 0x7fc7f6259b50 'com.apple.dt.runtime.swiftCoreImage' '<DVTFilePath:0x7fc7f62c6280:'/Users/danielkim/Library/Developer/Xcode/Archives/2017-12-07/EconMP2Project 12-7-17, 1.46 PM.xcarchive/Products/Applications/EconMP2Project.app/Contents/Frameworks/libswiftCoreImage.dylib'>'>
+2017-12-07 18:46:52 +0000  Skipping profile for item: <IDEDistributionItem: 0x7fc7f46b0b40 'com.apple.dt.runtime.swiftDarwin' '<DVTFilePath:0x7fc7f3788010:'/Users/danielkim/Library/Developer/Xcode/Archives/2017-12-07/EconMP2Project 12-7-17, 1.46 PM.xcarchive/Products/Applications/EconMP2Project.app/Contents/Frameworks/libswiftDarwin.dylib'>'>
+2017-12-07 18:46:52 +0000  Skipping profile for item: <IDEDistributionItem: 0x7fc7f62b6d80 'com.apple.dt.runtime.swiftDispatch' '<DVTFilePath:0x7fc7f47623d0:'/Users/danielkim/Library/Developer/Xcode/Archives/2017-12-07/EconMP2Project 12-7-17, 1.46 PM.xcarchive/Products/Applications/EconMP2Project.app/Contents/Frameworks/libswiftDispatch.dylib'>'>
+2017-12-07 18:46:52 +0000  Skipping profile for item: <IDEDistributionItem: 0x7fc7f41eb280 'com.apple.dt.runtime.swiftFoundation' '<DVTFilePath:0x7fc7f2543ff0:'/Users/danielkim/Library/Developer/Xcode/Archives/2017-12-07/EconMP2Project 12-7-17, 1.46 PM.xcarchive/Products/Applications/EconMP2Project.app/Contents/Frameworks/libswiftFoundation.dylib'>'>
+2017-12-07 18:46:52 +0000  Skipping profile for item: <IDEDistributionItem: 0x7fc7f5595810 'com.apple.dt.runtime.swiftIOKit' '<DVTFilePath:0x7fc80a05c230:'/Users/danielkim/Library/Developer/Xcode/Archives/2017-12-07/EconMP2Project 12-7-17, 1.46 PM.xcarchive/Products/Applications/EconMP2Project.app/Contents/Frameworks/libswiftIOKit.dylib'>'>
+2017-12-07 18:46:52 +0000  Skipping profile for item: <IDEDistributionItem: 0x7fc7f51b7660 'com.apple.dt.runtime.swiftMetal' '<DVTFilePath:0x7fc7f2562560:'/Users/danielkim/Library/Developer/Xcode/Archives/2017-12-07/EconMP2Project 12-7-17, 1.46 PM.xcarchive/Products/Applications/EconMP2Project.app/Contents/Frameworks/libswiftMetal.dylib'>'>
+2017-12-07 18:46:52 +0000  Skipping profile for item: <IDEDistributionItem: 0x7fc809588770 'com.apple.dt.runtime.swiftObjectiveC' '<DVTFilePath:0x7fc80a05e110:'/Users/danielkim/Library/Developer/Xcode/Archives/2017-12-07/EconMP2Project 12-7-17, 1.46 PM.xcarchive/Products/Applications/EconMP2Project.app/Contents/Frameworks/libswiftObjectiveC.dylib'>'>
+2017-12-07 18:46:52 +0000  Skipping profile for item: <IDEDistributionItem: 0x7fc809734910 'com.apple.dt.runtime.swiftQuartzCore' '<DVTFilePath:0x7fc7f510b460:'/Users/danielkim/Library/Developer/Xcode/Archives/2017-12-07/EconMP2Project 12-7-17, 1.46 PM.xcarchive/Products/Applications/EconMP2Project.app/Contents/Frameworks/libswiftQuartzCore.dylib'>'>
+2017-12-07 18:46:52 +0000  Skipping profile for item: <IDEDistributionItem: 0x7fc7f5594100 'com.apple.dt.runtime.swiftXPC' '<DVTFilePath:0x7fc7f465ed80:'/Users/danielkim/Library/Developer/Xcode/Archives/2017-12-07/EconMP2Project 12-7-17, 1.46 PM.xcarchive/Products/Applications/EconMP2Project.app/Contents/Frameworks/libswiftXPC.dylib'>'>
+2017-12-07 18:46:52 +0000  Skipping profile for item: <IDEDistributionItem: 0x7fc7f62c5f00 'com.apple.dt.runtime.swiftos' '<DVTFilePath:0x7fc7f54a6fa0:'/Users/danielkim/Library/Developer/Xcode/Archives/2017-12-07/EconMP2Project 12-7-17, 1.46 PM.xcarchive/Products/Applications/EconMP2Project.app/Contents/Frameworks/libswiftos.dylib'>'>
+2017-12-07 18:46:52 +0000  Skipping profile for item: <IDEDistributionItem: 0x7fc7f559b720 'com.danielapps.EconMP2Project' '<DVTFilePath:0x7fc807dcf960:'/Users/danielkim/Library/Developer/Xcode/Archives/2017-12-07/EconMP2Project 12-7-17, 1.46 PM.xcarchive/Products/Applications/EconMP2Project.app'>'>
+2017-12-07 18:46:52 +0000  Processing step: IDEDistributionAppThinningPlistStep
+2017-12-07 18:46:52 +0000  Processing step: IDEDistributionCompileBitcodeStep
+2017-12-07 18:46:52 +0000  Skipping step: IDEDistributionCompileBitcodeStep because it said so
+2017-12-07 18:46:52 +0000  Processing step: IDEDistributionCodeSlimmingStep
+2017-12-07 18:46:52 +0000  Processing step: IDEDistributionCopyBCSymbolMapsStep
+2017-12-07 18:46:52 +0000  Skipping step: IDEDistributionCopyBCSymbolMapsStep because it said so
+2017-12-07 18:46:52 +0000  Skipping step: IDEDistributionCopyBCSymbolMapsStep because it said so
+2017-12-07 18:46:52 +0000  Skipping step: IDEDistributionCopyBCSymbolMapsStep because it said so
+2017-12-07 18:46:52 +0000  Skipping step: IDEDistributionCopyBCSymbolMapsStep because it said so
+2017-12-07 18:46:52 +0000  Skipping step: IDEDistributionCopyBCSymbolMapsStep because it said so
+2017-12-07 18:46:52 +0000  Skipping step: IDEDistributionCopyBCSymbolMapsStep because it said so
+2017-12-07 18:46:52 +0000  Skipping step: IDEDistributionCopyBCSymbolMapsStep because it said so
+2017-12-07 18:46:52 +0000  Skipping step: IDEDistributionCopyBCSymbolMapsStep because it said so
+2017-12-07 18:46:52 +0000  Skipping step: IDEDistributionCopyBCSymbolMapsStep because it said so
+2017-12-07 18:46:52 +0000  Skipping step: IDEDistributionCopyBCSymbolMapsStep because it said so
+2017-12-07 18:46:52 +0000  Skipping step: IDEDistributionCopyBCSymbolMapsStep because it said so
+2017-12-07 18:46:52 +0000  Skipping step: IDEDistributionCopyBCSymbolMapsStep because it said so
+2017-12-07 18:46:52 +0000  Skipping step: IDEDistributionCopyBCSymbolMapsStep because it said so
+2017-12-07 18:46:52 +0000  Skipping step: IDEDistributionCopyBCSymbolMapsStep because it said so
+2017-12-07 18:46:52 +0000  Skipping step: IDEDistributionCopyBCSymbolMapsStep because it said so
+2017-12-07 18:46:52 +0000  Skipping step: IDEDistributionCopyBCSymbolMapsStep because it said so
+2017-12-07 18:46:52 +0000  Processing step: IDEDistributionSymbolsStep
+2017-12-07 18:46:52 +0000  Skipping step: IDEDistributionSymbolsStep because it said so
+2017-12-07 18:46:52 +0000  Skipping step: IDEDistributionSymbolsStep because it said so
+2017-12-07 18:46:52 +0000  Skipping step: IDEDistributionSymbolsStep because it said so
+2017-12-07 18:46:52 +0000  Skipping step: IDEDistributionSymbolsStep because it said so
+2017-12-07 18:46:52 +0000  Skipping step: IDEDistributionSymbolsStep because it said so
+2017-12-07 18:46:52 +0000  Skipping step: IDEDistributionSymbolsStep because it said so
+2017-12-07 18:46:52 +0000  Skipping step: IDEDistributionSymbolsStep because it said so
+2017-12-07 18:46:52 +0000  Skipping step: IDEDistributionSymbolsStep because it said so
+2017-12-07 18:46:52 +0000  Skipping step: IDEDistributionSymbolsStep because it said so
+2017-12-07 18:46:52 +0000  Skipping step: IDEDistributionSymbolsStep because it said so
+2017-12-07 18:46:52 +0000  Skipping step: IDEDistributionSymbolsStep because it said so
+2017-12-07 18:46:52 +0000  Skipping step: IDEDistributionSymbolsStep because it said so
+2017-12-07 18:46:52 +0000  Skipping step: IDEDistributionSymbolsStep because it said so
+2017-12-07 18:46:52 +0000  Skipping step: IDEDistributionSymbolsStep because it said so
+2017-12-07 18:46:52 +0000  Skipping step: IDEDistributionSymbolsStep because it said so
+2017-12-07 18:46:52 +0000  Skipping step: IDEDistributionSymbolsStep because it said so
+2017-12-07 18:46:52 +0000  Processing step: IDEDistributionAppThinningStep
+2017-12-07 18:46:52 +0000  Skipping step: IDEDistributionAppThinningStep because it said so
+2017-12-07 18:46:52 +0000  Processing step: IDEDistributionODRStep
+2017-12-07 18:46:52 +0000  Processing step: IDEDistributionStripXattrsStep
+2017-12-07 18:46:52 +0000  Skipping stripping extended attributes of item: <IDEDistributionItem: 0x7fc8095a30e0 'com.apple.dt.runtime.swiftAppKit' '<DVTFilePath:0x7fc7f313aab0:'/Users/danielkim/Library/Developer/Xcode/Archives/2017-12-07/EconMP2Project 12-7-17, 1.46 PM.xcarchive/Products/Applications/EconMP2Project.app/Contents/Frameworks/libswiftAppKit.dylib'>'>
+2017-12-07 18:46:52 +0000  Skipping stripping extended attributes of item: <IDEDistributionItem: 0x7fc7f54c4310 'com.apple.dt.runtime.swiftCore' '<DVTFilePath:0x7fc7f31604a0:'/Users/danielkim/Library/Developer/Xcode/Archives/2017-12-07/EconMP2Project 12-7-17, 1.46 PM.xcarchive/Products/Applications/EconMP2Project.app/Contents/Frameworks/libswiftCore.dylib'>'>
+2017-12-07 18:46:52 +0000  Skipping stripping extended attributes of item: <IDEDistributionItem: 0x7fc7f46e18c0 'com.apple.dt.runtime.swiftCoreData' '<DVTFilePath:0x7fc7f31f6200:'/Users/danielkim/Library/Developer/Xcode/Archives/2017-12-07/EconMP2Project 12-7-17, 1.46 PM.xcarchive/Products/Applications/EconMP2Project.app/Contents/Frameworks/libswiftCoreData.dylib'>'>
+2017-12-07 18:46:52 +0000  Skipping stripping extended attributes of item: <IDEDistributionItem: 0x7fc7f35b5bf0 'com.apple.dt.runtime.swiftCoreFoundation' '<DVTFilePath:0x7fc7f508c430:'/Users/danielkim/Library/Developer/Xcode/Archives/2017-12-07/EconMP2Project 12-7-17, 1.46 PM.xcarchive/Products/Applications/EconMP2Project.app/Contents/Frameworks/libswiftCoreFoundation.dylib'>'>
+2017-12-07 18:46:52 +0000  Skipping stripping extended attributes of item: <IDEDistributionItem: 0x7fc7f559d8d0 'com.apple.dt.runtime.swiftCoreGraphics' '<DVTFilePath:0x7fc7f622adb0:'/Users/danielkim/Library/Developer/Xcode/Archives/2017-12-07/EconMP2Project 12-7-17, 1.46 PM.xcarchive/Products/Applications/EconMP2Project.app/Contents/Frameworks/libswiftCoreGraphics.dylib'>'>
+2017-12-07 18:46:52 +0000  Skipping stripping extended attributes of item: <IDEDistributionItem: 0x7fc7f6259b50 'com.apple.dt.runtime.swiftCoreImage' '<DVTFilePath:0x7fc7f62c6280:'/Users/danielkim/Library/Developer/Xcode/Archives/2017-12-07/EconMP2Project 12-7-17, 1.46 PM.xcarchive/Products/Applications/EconMP2Project.app/Contents/Frameworks/libswiftCoreImage.dylib'>'>
+2017-12-07 18:46:52 +0000  Skipping stripping extended attributes of item: <IDEDistributionItem: 0x7fc7f46b0b40 'com.apple.dt.runtime.swiftDarwin' '<DVTFilePath:0x7fc7f3788010:'/Users/danielkim/Library/Developer/Xcode/Archives/2017-12-07/EconMP2Project 12-7-17, 1.46 PM.xcarchive/Products/Applications/EconMP2Project.app/Contents/Frameworks/libswiftDarwin.dylib'>'>
+2017-12-07 18:46:52 +0000  Skipping stripping extended attributes of item: <IDEDistributionItem: 0x7fc7f62b6d80 'com.apple.dt.runtime.swiftDispatch' '<DVTFilePath:0x7fc7f47623d0:'/Users/danielkim/Library/Developer/Xcode/Archives/2017-12-07/EconMP2Project 12-7-17, 1.46 PM.xcarchive/Products/Applications/EconMP2Project.app/Contents/Frameworks/libswiftDispatch.dylib'>'>
+2017-12-07 18:46:52 +0000  Skipping stripping extended attributes of item: <IDEDistributionItem: 0x7fc7f41eb280 'com.apple.dt.runtime.swiftFoundation' '<DVTFilePath:0x7fc7f2543ff0:'/Users/danielkim/Library/Developer/Xcode/Archives/2017-12-07/EconMP2Project 12-7-17, 1.46 PM.xcarchive/Products/Applications/EconMP2Project.app/Contents/Frameworks/libswiftFoundation.dylib'>'>
+2017-12-07 18:46:52 +0000  Skipping stripping extended attributes of item: <IDEDistributionItem: 0x7fc7f5595810 'com.apple.dt.runtime.swiftIOKit' '<DVTFilePath:0x7fc80a05c230:'/Users/danielkim/Library/Developer/Xcode/Archives/2017-12-07/EconMP2Project 12-7-17, 1.46 PM.xcarchive/Products/Applications/EconMP2Project.app/Contents/Frameworks/libswiftIOKit.dylib'>'>
+2017-12-07 18:46:52 +0000  Skipping stripping extended attributes of item: <IDEDistributionItem: 0x7fc7f51b7660 'com.apple.dt.runtime.swiftMetal' '<DVTFilePath:0x7fc7f2562560:'/Users/danielkim/Library/Developer/Xcode/Archives/2017-12-07/EconMP2Project 12-7-17, 1.46 PM.xcarchive/Products/Applications/EconMP2Project.app/Contents/Frameworks/libswiftMetal.dylib'>'>
+2017-12-07 18:46:52 +0000  Skipping stripping extended attributes of item: <IDEDistributionItem: 0x7fc809588770 'com.apple.dt.runtime.swiftObjectiveC' '<DVTFilePath:0x7fc80a05e110:'/Users/danielkim/Library/Developer/Xcode/Archives/2017-12-07/EconMP2Project 12-7-17, 1.46 PM.xcarchive/Products/Applications/EconMP2Project.app/Contents/Frameworks/libswiftObjectiveC.dylib'>'>
+2017-12-07 18:46:52 +0000  Skipping stripping extended attributes of item: <IDEDistributionItem: 0x7fc809734910 'com.apple.dt.runtime.swiftQuartzCore' '<DVTFilePath:0x7fc7f510b460:'/Users/danielkim/Library/Developer/Xcode/Archives/2017-12-07/EconMP2Project 12-7-17, 1.46 PM.xcarchive/Products/Applications/EconMP2Project.app/Contents/Frameworks/libswiftQuartzCore.dylib'>'>
+2017-12-07 18:46:52 +0000  Skipping stripping extended attributes of item: <IDEDistributionItem: 0x7fc7f5594100 'com.apple.dt.runtime.swiftXPC' '<DVTFilePath:0x7fc7f465ed80:'/Users/danielkim/Library/Developer/Xcode/Archives/2017-12-07/EconMP2Project 12-7-17, 1.46 PM.xcarchive/Products/Applications/EconMP2Project.app/Contents/Frameworks/libswiftXPC.dylib'>'>
+2017-12-07 18:46:52 +0000  Skipping stripping extended attributes of item: <IDEDistributionItem: 0x7fc7f62c5f00 'com.apple.dt.runtime.swiftos' '<DVTFilePath:0x7fc7f54a6fa0:'/Users/danielkim/Library/Developer/Xcode/Archives/2017-12-07/EconMP2Project 12-7-17, 1.46 PM.xcarchive/Products/Applications/EconMP2Project.app/Contents/Frameworks/libswiftos.dylib'>'>
+2017-12-07 18:46:52 +0000  Running /usr/bin/xattr '-cr' '/var/folders/1s/s3b8sz5x74x8j1jnxdbj5nqw0000gn/T/XcodeDistPipeline.fyS/Root/Applications/EconMP2Project.app'
+2017-12-07 18:46:53 +0000  /usr/bin/xattr exited with 0
+2017-12-07 18:46:53 +0000  Processing step: IDEDistributionCodesignStep
+2017-12-07 18:46:53 +0000  Applying entitlements delta for <IDEDistributionItem: 0x7fc8095a30e0 'com.apple.dt.runtime.swiftAppKit' '<DVTFilePath:0x7fc7f313aab0:'/Users/danielkim/Library/Developer/Xcode/Archives/2017-12-07/EconMP2Project 12-7-17, 1.46 PM.xcarchive/Products/Applications/EconMP2Project.app/Contents/Frameworks/libswiftAppKit.dylib'>'> from <IDEiCloudEntitlementsProcessor: 0x7fc7f45a0240>: {
+}
+2017-12-07 18:46:53 +0000  Entitlements for <IDEDistributionItem: 0x7fc8095a30e0 'com.apple.dt.runtime.swiftAppKit' '<DVTFilePath:0x7fc7f313aab0:'/Users/danielkim/Library/Developer/Xcode/Archives/2017-12-07/EconMP2Project 12-7-17, 1.46 PM.xcarchive/Products/Applications/EconMP2Project.app/Contents/Frameworks/libswiftAppKit.dylib'>'>: {
+}
+2017-12-07 18:46:53 +0000  Writing entitlements for <IDEDistributionItem: 0x7fc8095a30e0 'com.apple.dt.runtime.swiftAppKit' '<DVTFilePath:0x7fc7f313aab0:'/Users/danielkim/Library/Developer/Xcode/Archives/2017-12-07/EconMP2Project 12-7-17, 1.46 PM.xcarchive/Products/Applications/EconMP2Project.app/Contents/Frameworks/libswiftAppKit.dylib'>'> to: /var/folders/1s/s3b8sz5x74x8j1jnxdbj5nqw0000gn/T/XcodeDistPipeline.fyS/entitlementsXFv723
+2017-12-07 18:46:53 +0000  Running /usr/bin/codesign '-vvv' '--force' '--sign' '106560A055490455F3CD19BBAD6F3DFE8A9F0A88' '--preserve-metadata=identifier,flags' '--entitlements' '/var/folders/1s/s3b8sz5x74x8j1jnxdbj5nqw0000gn/T/XcodeDistPipeline.fyS/entitlementsXFv723' '--requirements' '=designated => anchor apple generic  and identifier "$self.identifier" and ((cert leaf[field.1.2.840.113635.100.6.1.9] exists) or ( certificate 1[field.1.2.840.113635.100.6.2.6] exists and certificate leaf[field.1.2.840.113635.100.6.1.13] exists  and certificate leaf[subject.OU] = "72YYJ825DR" ))' '/var/folders/1s/s3b8sz5x74x8j1jnxdbj5nqw0000gn/T/XcodeDistPipeline.fyS/Root/Applications/EconMP2Project.app/Contents/Frameworks/libswiftAppKit.dylib'
+2017-12-07 18:46:53 +0000  /var/folders/1s/s3b8sz5x74x8j1jnxdbj5nqw0000gn/T/XcodeDistPipeline.fyS/Root/Applications/EconMP2Project.app/Contents/Frameworks/libswiftAppKit.dylib: replacing existing signature
+2017-12-07 18:46:53 +0000  /var/folders/1s/s3b8sz5x74x8j1jnxdbj5nqw0000gn/T/XcodeDistPipeline.fyS/Root/Applications/EconMP2Project.app/Contents/Frameworks/libswiftAppKit.dylib: signed Mach-O thin (x86_64) [com.apple.dt.runtime.swiftAppKit]
+2017-12-07 18:46:53 +0000  /usr/bin/codesign exited with 0
+2017-12-07 18:46:53 +0000  Applying entitlements delta for <IDEDistributionItem: 0x7fc7f54c4310 'com.apple.dt.runtime.swiftCore' '<DVTFilePath:0x7fc7f31604a0:'/Users/danielkim/Library/Developer/Xcode/Archives/2017-12-07/EconMP2Project 12-7-17, 1.46 PM.xcarchive/Products/Applications/EconMP2Project.app/Contents/Frameworks/libswiftCore.dylib'>'> from <IDEiCloudEntitlementsProcessor: 0x7fc7f06e9b80>: {
+}
+2017-12-07 18:46:53 +0000  Entitlements for <IDEDistributionItem: 0x7fc7f54c4310 'com.apple.dt.runtime.swiftCore' '<DVTFilePath:0x7fc7f31604a0:'/Users/danielkim/Library/Developer/Xcode/Archives/2017-12-07/EconMP2Project 12-7-17, 1.46 PM.xcarchive/Products/Applications/EconMP2Project.app/Contents/Frameworks/libswiftCore.dylib'>'>: {
+}
+2017-12-07 18:46:53 +0000  Writing entitlements for <IDEDistributionItem: 0x7fc7f54c4310 'com.apple.dt.runtime.swiftCore' '<DVTFilePath:0x7fc7f31604a0:'/Users/danielkim/Library/Developer/Xcode/Archives/2017-12-07/EconMP2Project 12-7-17, 1.46 PM.xcarchive/Products/Applications/EconMP2Project.app/Contents/Frameworks/libswiftCore.dylib'>'> to: /var/folders/1s/s3b8sz5x74x8j1jnxdbj5nqw0000gn/T/XcodeDistPipeline.fyS/entitlementsWPzvdc
+2017-12-07 18:46:53 +0000  Running /usr/bin/codesign '-vvv' '--force' '--sign' '106560A055490455F3CD19BBAD6F3DFE8A9F0A88' '--preserve-metadata=identifier,flags' '--entitlements' '/var/folders/1s/s3b8sz5x74x8j1jnxdbj5nqw0000gn/T/XcodeDistPipeline.fyS/entitlementsWPzvdc' '--requirements' '=designated => anchor apple generic  and identifier "$self.identifier" and ((cert leaf[field.1.2.840.113635.100.6.1.9] exists) or ( certificate 1[field.1.2.840.113635.100.6.2.6] exists and certificate leaf[field.1.2.840.113635.100.6.1.13] exists  and certificate leaf[subject.OU] = "72YYJ825DR" ))' '/var/folders/1s/s3b8sz5x74x8j1jnxdbj5nqw0000gn/T/XcodeDistPipeline.fyS/Root/Applications/EconMP2Project.app/Contents/Frameworks/libswiftCore.dylib'
+2017-12-07 18:46:53 +0000  /var/folders/1s/s3b8sz5x74x8j1jnxdbj5nqw0000gn/T/XcodeDistPipeline.fyS/Root/Applications/EconMP2Project.app/Contents/Frameworks/libswiftCore.dylib: replacing existing signature
+2017-12-07 18:46:53 +0000  /var/folders/1s/s3b8sz5x74x8j1jnxdbj5nqw0000gn/T/XcodeDistPipeline.fyS/Root/Applications/EconMP2Project.app/Contents/Frameworks/libswiftCore.dylib: signed Mach-O thin (x86_64) [com.apple.dt.runtime.swiftCore]
+2017-12-07 18:46:53 +0000  /usr/bin/codesign exited with 0
+2017-12-07 18:46:53 +0000  Applying entitlements delta for <IDEDistributionItem: 0x7fc7f46e18c0 'com.apple.dt.runtime.swiftCoreData' '<DVTFilePath:0x7fc7f31f6200:'/Users/danielkim/Library/Developer/Xcode/Archives/2017-12-07/EconMP2Project 12-7-17, 1.46 PM.xcarchive/Products/Applications/EconMP2Project.app/Contents/Frameworks/libswiftCoreData.dylib'>'> from <IDEiCloudEntitlementsProcessor: 0x7fc7f63f88a0>: {
+}
+2017-12-07 18:46:53 +0000  Entitlements for <IDEDistributionItem: 0x7fc7f46e18c0 'com.apple.dt.runtime.swiftCoreData' '<DVTFilePath:0x7fc7f31f6200:'/Users/danielkim/Library/Developer/Xcode/Archives/2017-12-07/EconMP2Project 12-7-17, 1.46 PM.xcarchive/Products/Applications/EconMP2Project.app/Contents/Frameworks/libswiftCoreData.dylib'>'>: {
+}
+2017-12-07 18:46:53 +0000  Writing entitlements for <IDEDistributionItem: 0x7fc7f46e18c0 'com.apple.dt.runtime.swiftCoreData' '<DVTFilePath:0x7fc7f31f6200:'/Users/danielkim/Library/Developer/Xcode/Archives/2017-12-07/EconMP2Project 12-7-17, 1.46 PM.xcarchive/Products/Applications/EconMP2Project.app/Contents/Frameworks/libswiftCoreData.dylib'>'> to: /var/folders/1s/s3b8sz5x74x8j1jnxdbj5nqw0000gn/T/XcodeDistPipeline.fyS/entitlementsxe80u3
+2017-12-07 18:46:53 +0000  Running /usr/bin/codesign '-vvv' '--force' '--sign' '106560A055490455F3CD19BBAD6F3DFE8A9F0A88' '--preserve-metadata=identifier,flags' '--entitlements' '/var/folders/1s/s3b8sz5x74x8j1jnxdbj5nqw0000gn/T/XcodeDistPipeline.fyS/entitlementsxe80u3' '--requirements' '=designated => anchor apple generic  and identifier "$self.identifier" and ((cert leaf[field.1.2.840.113635.100.6.1.9] exists) or ( certificate 1[field.1.2.840.113635.100.6.2.6] exists and certificate leaf[field.1.2.840.113635.100.6.1.13] exists  and certificate leaf[subject.OU] = "72YYJ825DR" ))' '/var/folders/1s/s3b8sz5x74x8j1jnxdbj5nqw0000gn/T/XcodeDistPipeline.fyS/Root/Applications/EconMP2Project.app/Contents/Frameworks/libswiftCoreData.dylib'
+2017-12-07 18:46:53 +0000  /var/folders/1s/s3b8sz5x74x8j1jnxdbj5nqw0000gn/T/XcodeDistPipeline.fyS/Root/Applications/EconMP2Project.app/Contents/Frameworks/libswiftCoreData.dylib: replacing existing signature
+2017-12-07 18:46:53 +0000  /var/folders/1s/s3b8sz5x74x8j1jnxdbj5nqw0000gn/T/XcodeDistPipeline.fyS/Root/Applications/EconMP2Project.app/Contents/Frameworks/libswiftCoreData.dylib: signed Mach-O thin (x86_64) [com.apple.dt.runtime.swiftCoreData]
+2017-12-07 18:46:53 +0000  /usr/bin/codesign exited with 0
+2017-12-07 18:46:53 +0000  Applying entitlements delta for <IDEDistributionItem: 0x7fc7f35b5bf0 'com.apple.dt.runtime.swiftCoreFoundation' '<DVTFilePath:0x7fc7f508c430:'/Users/danielkim/Library/Developer/Xcode/Archives/2017-12-07/EconMP2Project 12-7-17, 1.46 PM.xcarchive/Products/Applications/EconMP2Project.app/Contents/Frameworks/libswiftCoreFoundation.dylib'>'> from <IDEiCloudEntitlementsProcessor: 0x7fc7f63f1330>: {
+}
+2017-12-07 18:46:53 +0000  Entitlements for <IDEDistributionItem: 0x7fc7f35b5bf0 'com.apple.dt.runtime.swiftCoreFoundation' '<DVTFilePath:0x7fc7f508c430:'/Users/danielkim/Library/Developer/Xcode/Archives/2017-12-07/EconMP2Project 12-7-17, 1.46 PM.xcarchive/Products/Applications/EconMP2Project.app/Contents/Frameworks/libswiftCoreFoundation.dylib'>'>: {
+}
+2017-12-07 18:46:53 +0000  Writing entitlements for <IDEDistributionItem: 0x7fc7f35b5bf0 'com.apple.dt.runtime.swiftCoreFoundation' '<DVTFilePath:0x7fc7f508c430:'/Users/danielkim/Library/Developer/Xcode/Archives/2017-12-07/EconMP2Project 12-7-17, 1.46 PM.xcarchive/Products/Applications/EconMP2Project.app/Contents/Frameworks/libswiftCoreFoundation.dylib'>'> to: /var/folders/1s/s3b8sz5x74x8j1jnxdbj5nqw0000gn/T/XcodeDistPipeline.fyS/entitlementsrj6hrU
+2017-12-07 18:46:53 +0000  Running /usr/bin/codesign '-vvv' '--force' '--sign' '106560A055490455F3CD19BBAD6F3DFE8A9F0A88' '--preserve-metadata=identifier,flags' '--entitlements' '/var/folders/1s/s3b8sz5x74x8j1jnxdbj5nqw0000gn/T/XcodeDistPipeline.fyS/entitlementsrj6hrU' '--requirements' '=designated => anchor apple generic  and identifier "$self.identifier" and ((cert leaf[field.1.2.840.113635.100.6.1.9] exists) or ( certificate 1[field.1.2.840.113635.100.6.2.6] exists and certificate leaf[field.1.2.840.113635.100.6.1.13] exists  and certificate leaf[subject.OU] = "72YYJ825DR" ))' '/var/folders/1s/s3b8sz5x74x8j1jnxdbj5nqw0000gn/T/XcodeDistPipeline.fyS/Root/Applications/EconMP2Project.app/Contents/Frameworks/libswiftCoreFoundation.dylib'
+2017-12-07 18:46:53 +0000  /var/folders/1s/s3b8sz5x74x8j1jnxdbj5nqw0000gn/T/XcodeDistPipeline.fyS/Root/Applications/EconMP2Project.app/Contents/Frameworks/libswiftCoreFoundation.dylib: replacing existing signature
+2017-12-07 18:46:54 +0000  /var/folders/1s/s3b8sz5x74x8j1jnxdbj5nqw0000gn/T/XcodeDistPipeline.fyS/Root/Applications/EconMP2Project.app/Contents/Frameworks/libswiftCoreFoundation.dylib: signed Mach-O thin (x86_64) [com.apple.dt.runtime.swiftCoreFoundation]
+2017-12-07 18:46:54 +0000  /usr/bin/codesign exited with 0
+2017-12-07 18:46:54 +0000  Applying entitlements delta for <IDEDistributionItem: 0x7fc7f559d8d0 'com.apple.dt.runtime.swiftCoreGraphics' '<DVTFilePath:0x7fc7f622adb0:'/Users/danielkim/Library/Developer/Xcode/Archives/2017-12-07/EconMP2Project 12-7-17, 1.46 PM.xcarchive/Products/Applications/EconMP2Project.app/Contents/Frameworks/libswiftCoreGraphics.dylib'>'> from <IDEiCloudEntitlementsProcessor: 0x7fc7f4562650>: {
+}
+2017-12-07 18:46:54 +0000  Entitlements for <IDEDistributionItem: 0x7fc7f559d8d0 'com.apple.dt.runtime.swiftCoreGraphics' '<DVTFilePath:0x7fc7f622adb0:'/Users/danielkim/Library/Developer/Xcode/Archives/2017-12-07/EconMP2Project 12-7-17, 1.46 PM.xcarchive/Products/Applications/EconMP2Project.app/Contents/Frameworks/libswiftCoreGraphics.dylib'>'>: {
+}
+2017-12-07 18:46:54 +0000  Writing entitlements for <IDEDistributionItem: 0x7fc7f559d8d0 'com.apple.dt.runtime.swiftCoreGraphics' '<DVTFilePath:0x7fc7f622adb0:'/Users/danielkim/Library/Developer/Xcode/Archives/2017-12-07/EconMP2Project 12-7-17, 1.46 PM.xcarchive/Products/Applications/EconMP2Project.app/Contents/Frameworks/libswiftCoreGraphics.dylib'>'> to: /var/folders/1s/s3b8sz5x74x8j1jnxdbj5nqw0000gn/T/XcodeDistPipeline.fyS/entitlementsGJup4B
+2017-12-07 18:46:54 +0000  Running /usr/bin/codesign '-vvv' '--force' '--sign' '106560A055490455F3CD19BBAD6F3DFE8A9F0A88' '--preserve-metadata=identifier,flags' '--entitlements' '/var/folders/1s/s3b8sz5x74x8j1jnxdbj5nqw0000gn/T/XcodeDistPipeline.fyS/entitlementsGJup4B' '--requirements' '=designated => anchor apple generic  and identifier "$self.identifier" and ((cert leaf[field.1.2.840.113635.100.6.1.9] exists) or ( certificate 1[field.1.2.840.113635.100.6.2.6] exists and certificate leaf[field.1.2.840.113635.100.6.1.13] exists  and certificate leaf[subject.OU] = "72YYJ825DR" ))' '/var/folders/1s/s3b8sz5x74x8j1jnxdbj5nqw0000gn/T/XcodeDistPipeline.fyS/Root/Applications/EconMP2Project.app/Contents/Frameworks/libswiftCoreGraphics.dylib'
+2017-12-07 18:46:54 +0000  /var/folders/1s/s3b8sz5x74x8j1jnxdbj5nqw0000gn/T/XcodeDistPipeline.fyS/Root/Applications/EconMP2Project.app/Contents/Frameworks/libswiftCoreGraphics.dylib: replacing existing signature
+2017-12-07 18:46:54 +0000  /var/folders/1s/s3b8sz5x74x8j1jnxdbj5nqw0000gn/T/XcodeDistPipeline.fyS/Root/Applications/EconMP2Project.app/Contents/Frameworks/libswiftCoreGraphics.dylib: signed Mach-O thin (x86_64) [com.apple.dt.runtime.swiftCoreGraphics]
+2017-12-07 18:46:54 +0000  /usr/bin/codesign exited with 0
+2017-12-07 18:46:54 +0000  Applying entitlements delta for <IDEDistributionItem: 0x7fc7f6259b50 'com.apple.dt.runtime.swiftCoreImage' '<DVTFilePath:0x7fc7f62c6280:'/Users/danielkim/Library/Developer/Xcode/Archives/2017-12-07/EconMP2Project 12-7-17, 1.46 PM.xcarchive/Products/Applications/EconMP2Project.app/Contents/Frameworks/libswiftCoreImage.dylib'>'> from <IDEiCloudEntitlementsProcessor: 0x7fc7f63c63f0>: {
+}
+2017-12-07 18:46:54 +0000  Entitlements for <IDEDistributionItem: 0x7fc7f6259b50 'com.apple.dt.runtime.swiftCoreImage' '<DVTFilePath:0x7fc7f62c6280:'/Users/danielkim/Library/Developer/Xcode/Archives/2017-12-07/EconMP2Project 12-7-17, 1.46 PM.xcarchive/Products/Applications/EconMP2Project.app/Contents/Frameworks/libswiftCoreImage.dylib'>'>: {
+}
+2017-12-07 18:46:54 +0000  Writing entitlements for <IDEDistributionItem: 0x7fc7f6259b50 'com.apple.dt.runtime.swiftCoreImage' '<DVTFilePath:0x7fc7f62c6280:'/Users/danielkim/Library/Developer/Xcode/Archives/2017-12-07/EconMP2Project 12-7-17, 1.46 PM.xcarchive/Products/Applications/EconMP2Project.app/Contents/Frameworks/libswiftCoreImage.dylib'>'> to: /var/folders/1s/s3b8sz5x74x8j1jnxdbj5nqw0000gn/T/XcodeDistPipeline.fyS/entitlementsqfdZAr
+2017-12-07 18:46:54 +0000  Running /usr/bin/codesign '-vvv' '--force' '--sign' '106560A055490455F3CD19BBAD6F3DFE8A9F0A88' '--preserve-metadata=identifier,flags' '--entitlements' '/var/folders/1s/s3b8sz5x74x8j1jnxdbj5nqw0000gn/T/XcodeDistPipeline.fyS/entitlementsqfdZAr' '--requirements' '=designated => anchor apple generic  and identifier "$self.identifier" and ((cert leaf[field.1.2.840.113635.100.6.1.9] exists) or ( certificate 1[field.1.2.840.113635.100.6.2.6] exists and certificate leaf[field.1.2.840.113635.100.6.1.13] exists  and certificate leaf[subject.OU] = "72YYJ825DR" ))' '/var/folders/1s/s3b8sz5x74x8j1jnxdbj5nqw0000gn/T/XcodeDistPipeline.fyS/Root/Applications/EconMP2Project.app/Contents/Frameworks/libswiftCoreImage.dylib'
+2017-12-07 18:46:54 +0000  /var/folders/1s/s3b8sz5x74x8j1jnxdbj5nqw0000gn/T/XcodeDistPipeline.fyS/Root/Applications/EconMP2Project.app/Contents/Frameworks/libswiftCoreImage.dylib: replacing existing signature
+2017-12-07 18:46:54 +0000  /var/folders/1s/s3b8sz5x74x8j1jnxdbj5nqw0000gn/T/XcodeDistPipeline.fyS/Root/Applications/EconMP2Project.app/Contents/Frameworks/libswiftCoreImage.dylib: signed Mach-O thin (x86_64) [com.apple.dt.runtime.swiftCoreImage]
+2017-12-07 18:46:54 +0000  /usr/bin/codesign exited with 0
+2017-12-07 18:46:54 +0000  Applying entitlements delta for <IDEDistributionItem: 0x7fc7f46b0b40 'com.apple.dt.runtime.swiftDarwin' '<DVTFilePath:0x7fc7f3788010:'/Users/danielkim/Library/Developer/Xcode/Archives/2017-12-07/EconMP2Project 12-7-17, 1.46 PM.xcarchive/Products/Applications/EconMP2Project.app/Contents/Frameworks/libswiftDarwin.dylib'>'> from <IDEiCloudEntitlementsProcessor: 0x7fc7f3605460>: {
+}
+2017-12-07 18:46:54 +0000  Entitlements for <IDEDistributionItem: 0x7fc7f46b0b40 'com.apple.dt.runtime.swiftDarwin' '<DVTFilePath:0x7fc7f3788010:'/Users/danielkim/Library/Developer/Xcode/Archives/2017-12-07/EconMP2Project 12-7-17, 1.46 PM.xcarchive/Products/Applications/EconMP2Project.app/Contents/Frameworks/libswiftDarwin.dylib'>'>: {
+}
+2017-12-07 18:46:54 +0000  Writing entitlements for <IDEDistributionItem: 0x7fc7f46b0b40 'com.apple.dt.runtime.swiftDarwin' '<DVTFilePath:0x7fc7f3788010:'/Users/danielkim/Library/Developer/Xcode/Archives/2017-12-07/EconMP2Project 12-7-17, 1.46 PM.xcarchive/Products/Applications/EconMP2Project.app/Contents/Frameworks/libswiftDarwin.dylib'>'> to: /var/folders/1s/s3b8sz5x74x8j1jnxdbj5nqw0000gn/T/XcodeDistPipeline.fyS/entitlementsOx7hdk
+2017-12-07 18:46:54 +0000  Running /usr/bin/codesign '-vvv' '--force' '--sign' '106560A055490455F3CD19BBAD6F3DFE8A9F0A88' '--preserve-metadata=identifier,flags' '--entitlements' '/var/folders/1s/s3b8sz5x74x8j1jnxdbj5nqw0000gn/T/XcodeDistPipeline.fyS/entitlementsOx7hdk' '--requirements' '=designated => anchor apple generic  and identifier "$self.identifier" and ((cert leaf[field.1.2.840.113635.100.6.1.9] exists) or ( certificate 1[field.1.2.840.113635.100.6.2.6] exists and certificate leaf[field.1.2.840.113635.100.6.1.13] exists  and certificate leaf[subject.OU] = "72YYJ825DR" ))' '/var/folders/1s/s3b8sz5x74x8j1jnxdbj5nqw0000gn/T/XcodeDistPipeline.fyS/Root/Applications/EconMP2Project.app/Contents/Frameworks/libswiftDarwin.dylib'
+2017-12-07 18:46:54 +0000  /var/folders/1s/s3b8sz5x74x8j1jnxdbj5nqw0000gn/T/XcodeDistPipeline.fyS/Root/Applications/EconMP2Project.app/Contents/Frameworks/libswiftDarwin.dylib: replacing existing signature
+2017-12-07 18:46:54 +0000  /var/folders/1s/s3b8sz5x74x8j1jnxdbj5nqw0000gn/T/XcodeDistPipeline.fyS/Root/Applications/EconMP2Project.app/Contents/Frameworks/libswiftDarwin.dylib: signed Mach-O thin (x86_64) [com.apple.dt.runtime.swiftDarwin]
+2017-12-07 18:46:54 +0000  /usr/bin/codesign exited with 0
+2017-12-07 18:46:54 +0000  Applying entitlements delta for <IDEDistributionItem: 0x7fc7f62b6d80 'com.apple.dt.runtime.swiftDispatch' '<DVTFilePath:0x7fc7f47623d0:'/Users/danielkim/Library/Developer/Xcode/Archives/2017-12-07/EconMP2Project 12-7-17, 1.46 PM.xcarchive/Products/Applications/EconMP2Project.app/Contents/Frameworks/libswiftDispatch.dylib'>'> from <IDEiCloudEntitlementsProcessor: 0x7fc7f16e5200>: {
+}
+2017-12-07 18:46:54 +0000  Entitlements for <IDEDistributionItem: 0x7fc7f62b6d80 'com.apple.dt.runtime.swiftDispatch' '<DVTFilePath:0x7fc7f47623d0:'/Users/danielkim/Library/Developer/Xcode/Archives/2017-12-07/EconMP2Project 12-7-17, 1.46 PM.xcarchive/Products/Applications/EconMP2Project.app/Contents/Frameworks/libswiftDispatch.dylib'>'>: {
+}
+2017-12-07 18:46:54 +0000  Writing entitlements for <IDEDistributionItem: 0x7fc7f62b6d80 'com.apple.dt.runtime.swiftDispatch' '<DVTFilePath:0x7fc7f47623d0:'/Users/danielkim/Library/Developer/Xcode/Archives/2017-12-07/EconMP2Project 12-7-17, 1.46 PM.xcarchive/Products/Applications/EconMP2Project.app/Contents/Frameworks/libswiftDispatch.dylib'>'> to: /var/folders/1s/s3b8sz5x74x8j1jnxdbj5nqw0000gn/T/XcodeDistPipeline.fyS/entitlementswP7PvK
+2017-12-07 18:46:54 +0000  Running /usr/bin/codesign '-vvv' '--force' '--sign' '106560A055490455F3CD19BBAD6F3DFE8A9F0A88' '--preserve-metadata=identifier,flags' '--entitlements' '/var/folders/1s/s3b8sz5x74x8j1jnxdbj5nqw0000gn/T/XcodeDistPipeline.fyS/entitlementswP7PvK' '--requirements' '=designated => anchor apple generic  and identifier "$self.identifier" and ((cert leaf[field.1.2.840.113635.100.6.1.9] exists) or ( certificate 1[field.1.2.840.113635.100.6.2.6] exists and certificate leaf[field.1.2.840.113635.100.6.1.13] exists  and certificate leaf[subject.OU] = "72YYJ825DR" ))' '/var/folders/1s/s3b8sz5x74x8j1jnxdbj5nqw0000gn/T/XcodeDistPipeline.fyS/Root/Applications/EconMP2Project.app/Contents/Frameworks/libswiftDispatch.dylib'
+2017-12-07 18:46:54 +0000  /var/folders/1s/s3b8sz5x74x8j1jnxdbj5nqw0000gn/T/XcodeDistPipeline.fyS/Root/Applications/EconMP2Project.app/Contents/Frameworks/libswiftDispatch.dylib: replacing existing signature
+2017-12-07 18:46:54 +0000  /var/folders/1s/s3b8sz5x74x8j1jnxdbj5nqw0000gn/T/XcodeDistPipeline.fyS/Root/Applications/EconMP2Project.app/Contents/Frameworks/libswiftDispatch.dylib: signed Mach-O thin (x86_64) [com.apple.dt.runtime.swiftDispatch]
+2017-12-07 18:46:54 +0000  /usr/bin/codesign exited with 0
+2017-12-07 18:46:54 +0000  Applying entitlements delta for <IDEDistributionItem: 0x7fc7f41eb280 'com.apple.dt.runtime.swiftFoundation' '<DVTFilePath:0x7fc7f2543ff0:'/Users/danielkim/Library/Developer/Xcode/Archives/2017-12-07/EconMP2Project 12-7-17, 1.46 PM.xcarchive/Products/Applications/EconMP2Project.app/Contents/Frameworks/libswiftFoundation.dylib'>'> from <IDEiCloudEntitlementsProcessor: 0x7fc7f63f8240>: {
+}
+2017-12-07 18:46:54 +0000  Entitlements for <IDEDistributionItem: 0x7fc7f41eb280 'com.apple.dt.runtime.swiftFoundation' '<DVTFilePath:0x7fc7f2543ff0:'/Users/danielkim/Library/Developer/Xcode/Archives/2017-12-07/EconMP2Project 12-7-17, 1.46 PM.xcarchive/Products/Applications/EconMP2Project.app/Contents/Frameworks/libswiftFoundation.dylib'>'>: {
+}
+2017-12-07 18:46:54 +0000  Writing entitlements for <IDEDistributionItem: 0x7fc7f41eb280 'com.apple.dt.runtime.swiftFoundation' '<DVTFilePath:0x7fc7f2543ff0:'/Users/danielkim/Library/Developer/Xcode/Archives/2017-12-07/EconMP2Project 12-7-17, 1.46 PM.xcarchive/Products/Applications/EconMP2Project.app/Contents/Frameworks/libswiftFoundation.dylib'>'> to: /var/folders/1s/s3b8sz5x74x8j1jnxdbj5nqw0000gn/T/XcodeDistPipeline.fyS/entitlementsnhnjYq
+2017-12-07 18:46:54 +0000  Running /usr/bin/codesign '-vvv' '--force' '--sign' '106560A055490455F3CD19BBAD6F3DFE8A9F0A88' '--preserve-metadata=identifier,flags' '--entitlements' '/var/folders/1s/s3b8sz5x74x8j1jnxdbj5nqw0000gn/T/XcodeDistPipeline.fyS/entitlementsnhnjYq' '--requirements' '=designated => anchor apple generic  and identifier "$self.identifier" and ((cert leaf[field.1.2.840.113635.100.6.1.9] exists) or ( certificate 1[field.1.2.840.113635.100.6.2.6] exists and certificate leaf[field.1.2.840.113635.100.6.1.13] exists  and certificate leaf[subject.OU] = "72YYJ825DR" ))' '/var/folders/1s/s3b8sz5x74x8j1jnxdbj5nqw0000gn/T/XcodeDistPipeline.fyS/Root/Applications/EconMP2Project.app/Contents/Frameworks/libswiftFoundation.dylib'
+2017-12-07 18:46:54 +0000  /var/folders/1s/s3b8sz5x74x8j1jnxdbj5nqw0000gn/T/XcodeDistPipeline.fyS/Root/Applications/EconMP2Project.app/Contents/Frameworks/libswiftFoundation.dylib: replacing existing signature
+2017-12-07 18:46:54 +0000  /var/folders/1s/s3b8sz5x74x8j1jnxdbj5nqw0000gn/T/XcodeDistPipeline.fyS/Root/Applications/EconMP2Project.app/Contents/Frameworks/libswiftFoundation.dylib: signed Mach-O thin (x86_64) [com.apple.dt.runtime.swiftFoundation]
+2017-12-07 18:46:54 +0000  /usr/bin/codesign exited with 0
+2017-12-07 18:46:54 +0000  Applying entitlements delta for <IDEDistributionItem: 0x7fc7f5595810 'com.apple.dt.runtime.swiftIOKit' '<DVTFilePath:0x7fc80a05c230:'/Users/danielkim/Library/Developer/Xcode/Archives/2017-12-07/EconMP2Project 12-7-17, 1.46 PM.xcarchive/Products/Applications/EconMP2Project.app/Contents/Frameworks/libswiftIOKit.dylib'>'> from <IDEiCloudEntitlementsProcessor: 0x7fc7f30bb4f0>: {
+}
+2017-12-07 18:46:54 +0000  Entitlements for <IDEDistributionItem: 0x7fc7f5595810 'com.apple.dt.runtime.swiftIOKit' '<DVTFilePath:0x7fc80a05c230:'/Users/danielkim/Library/Developer/Xcode/Archives/2017-12-07/EconMP2Project 12-7-17, 1.46 PM.xcarchive/Products/Applications/EconMP2Project.app/Contents/Frameworks/libswiftIOKit.dylib'>'>: {
+}
+2017-12-07 18:46:54 +0000  Writing entitlements for <IDEDistributionItem: 0x7fc7f5595810 'com.apple.dt.runtime.swiftIOKit' '<DVTFilePath:0x7fc80a05c230:'/Users/danielkim/Library/Developer/Xcode/Archives/2017-12-07/EconMP2Project 12-7-17, 1.46 PM.xcarchive/Products/Applications/EconMP2Project.app/Contents/Frameworks/libswiftIOKit.dylib'>'> to: /var/folders/1s/s3b8sz5x74x8j1jnxdbj5nqw0000gn/T/XcodeDistPipeline.fyS/entitlementsfq5lmr
+2017-12-07 18:46:54 +0000  Running /usr/bin/codesign '-vvv' '--force' '--sign' '106560A055490455F3CD19BBAD6F3DFE8A9F0A88' '--preserve-metadata=identifier,flags' '--entitlements' '/var/folders/1s/s3b8sz5x74x8j1jnxdbj5nqw0000gn/T/XcodeDistPipeline.fyS/entitlementsfq5lmr' '--requirements' '=designated => anchor apple generic  and identifier "$self.identifier" and ((cert leaf[field.1.2.840.113635.100.6.1.9] exists) or ( certificate 1[field.1.2.840.113635.100.6.2.6] exists and certificate leaf[field.1.2.840.113635.100.6.1.13] exists  and certificate leaf[subject.OU] = "72YYJ825DR" ))' '/var/folders/1s/s3b8sz5x74x8j1jnxdbj5nqw0000gn/T/XcodeDistPipeline.fyS/Root/Applications/EconMP2Project.app/Contents/Frameworks/libswiftIOKit.dylib'
+2017-12-07 18:46:54 +0000  /var/folders/1s/s3b8sz5x74x8j1jnxdbj5nqw0000gn/T/XcodeDistPipeline.fyS/Root/Applications/EconMP2Project.app/Contents/Frameworks/libswiftIOKit.dylib: replacing existing signature
+2017-12-07 18:46:54 +0000  /var/folders/1s/s3b8sz5x74x8j1jnxdbj5nqw0000gn/T/XcodeDistPipeline.fyS/Root/Applications/EconMP2Project.app/Contents/Frameworks/libswiftIOKit.dylib: signed Mach-O thin (x86_64) [com.apple.dt.runtime.swiftIOKit]
+2017-12-07 18:46:54 +0000  /usr/bin/codesign exited with 0
+2017-12-07 18:46:54 +0000  Applying entitlements delta for <IDEDistributionItem: 0x7fc7f51b7660 'com.apple.dt.runtime.swiftMetal' '<DVTFilePath:0x7fc7f2562560:'/Users/danielkim/Library/Developer/Xcode/Archives/2017-12-07/EconMP2Project 12-7-17, 1.46 PM.xcarchive/Products/Applications/EconMP2Project.app/Contents/Frameworks/libswiftMetal.dylib'>'> from <IDEiCloudEntitlementsProcessor: 0x7fc80974af70>: {
+}
+2017-12-07 18:46:54 +0000  Entitlements for <IDEDistributionItem: 0x7fc7f51b7660 'com.apple.dt.runtime.swiftMetal' '<DVTFilePath:0x7fc7f2562560:'/Users/danielkim/Library/Developer/Xcode/Archives/2017-12-07/EconMP2Project 12-7-17, 1.46 PM.xcarchive/Products/Applications/EconMP2Project.app/Contents/Frameworks/libswiftMetal.dylib'>'>: {
+}
+2017-12-07 18:46:54 +0000  Writing entitlements for <IDEDistributionItem: 0x7fc7f51b7660 'com.apple.dt.runtime.swiftMetal' '<DVTFilePath:0x7fc7f2562560:'/Users/danielkim/Library/Developer/Xcode/Archives/2017-12-07/EconMP2Project 12-7-17, 1.46 PM.xcarchive/Products/Applications/EconMP2Project.app/Contents/Frameworks/libswiftMetal.dylib'>'> to: /var/folders/1s/s3b8sz5x74x8j1jnxdbj5nqw0000gn/T/XcodeDistPipeline.fyS/entitlementsBv5Muo
+2017-12-07 18:46:54 +0000  Running /usr/bin/codesign '-vvv' '--force' '--sign' '106560A055490455F3CD19BBAD6F3DFE8A9F0A88' '--preserve-metadata=identifier,flags' '--entitlements' '/var/folders/1s/s3b8sz5x74x8j1jnxdbj5nqw0000gn/T/XcodeDistPipeline.fyS/entitlementsBv5Muo' '--requirements' '=designated => anchor apple generic  and identifier "$self.identifier" and ((cert leaf[field.1.2.840.113635.100.6.1.9] exists) or ( certificate 1[field.1.2.840.113635.100.6.2.6] exists and certificate leaf[field.1.2.840.113635.100.6.1.13] exists  and certificate leaf[subject.OU] = "72YYJ825DR" ))' '/var/folders/1s/s3b8sz5x74x8j1jnxdbj5nqw0000gn/T/XcodeDistPipeline.fyS/Root/Applications/EconMP2Project.app/Contents/Frameworks/libswiftMetal.dylib'
+2017-12-07 18:46:55 +0000  /var/folders/1s/s3b8sz5x74x8j1jnxdbj5nqw0000gn/T/XcodeDistPipeline.fyS/Root/Applications/EconMP2Project.app/Contents/Frameworks/libswiftMetal.dylib: replacing existing signature
+2017-12-07 18:46:55 +0000  /var/folders/1s/s3b8sz5x74x8j1jnxdbj5nqw0000gn/T/XcodeDistPipeline.fyS/Root/Applications/EconMP2Project.app/Contents/Frameworks/libswiftMetal.dylib: signed Mach-O thin (x86_64) [com.apple.dt.runtime.swiftMetal]
+2017-12-07 18:46:55 +0000  /usr/bin/codesign exited with 0
+2017-12-07 18:46:55 +0000  Applying entitlements delta for <IDEDistributionItem: 0x7fc809588770 'com.apple.dt.runtime.swiftObjectiveC' '<DVTFilePath:0x7fc80a05e110:'/Users/danielkim/Library/Developer/Xcode/Archives/2017-12-07/EconMP2Project 12-7-17, 1.46 PM.xcarchive/Products/Applications/EconMP2Project.app/Contents/Frameworks/libswiftObjectiveC.dylib'>'> from <IDEiCloudEntitlementsProcessor: 0x7fc7f30df180>: {
+}
+2017-12-07 18:46:55 +0000  Entitlements for <IDEDistributionItem: 0x7fc809588770 'com.apple.dt.runtime.swiftObjectiveC' '<DVTFilePath:0x7fc80a05e110:'/Users/danielkim/Library/Developer/Xcode/Archives/2017-12-07/EconMP2Project 12-7-17, 1.46 PM.xcarchive/Products/Applications/EconMP2Project.app/Contents/Frameworks/libswiftObjectiveC.dylib'>'>: {
+}
+2017-12-07 18:46:55 +0000  Writing entitlements for <IDEDistributionItem: 0x7fc809588770 'com.apple.dt.runtime.swiftObjectiveC' '<DVTFilePath:0x7fc80a05e110:'/Users/danielkim/Library/Developer/Xcode/Archives/2017-12-07/EconMP2Project 12-7-17, 1.46 PM.xcarchive/Products/Applications/EconMP2Project.app/Contents/Frameworks/libswiftObjectiveC.dylib'>'> to: /var/folders/1s/s3b8sz5x74x8j1jnxdbj5nqw0000gn/T/XcodeDistPipeline.fyS/entitlementsVG86Cx
+2017-12-07 18:46:55 +0000  Running /usr/bin/codesign '-vvv' '--force' '--sign' '106560A055490455F3CD19BBAD6F3DFE8A9F0A88' '--preserve-metadata=identifier,flags' '--entitlements' '/var/folders/1s/s3b8sz5x74x8j1jnxdbj5nqw0000gn/T/XcodeDistPipeline.fyS/entitlementsVG86Cx' '--requirements' '=designated => anchor apple generic  and identifier "$self.identifier" and ((cert leaf[field.1.2.840.113635.100.6.1.9] exists) or ( certificate 1[field.1.2.840.113635.100.6.2.6] exists and certificate leaf[field.1.2.840.113635.100.6.1.13] exists  and certificate leaf[subject.OU] = "72YYJ825DR" ))' '/var/folders/1s/s3b8sz5x74x8j1jnxdbj5nqw0000gn/T/XcodeDistPipeline.fyS/Root/Applications/EconMP2Project.app/Contents/Frameworks/libswiftObjectiveC.dylib'
+2017-12-07 18:46:55 +0000  /var/folders/1s/s3b8sz5x74x8j1jnxdbj5nqw0000gn/T/XcodeDistPipeline.fyS/Root/Applications/EconMP2Project.app/Contents/Frameworks/libswiftObjectiveC.dylib: replacing existing signature
+2017-12-07 18:46:55 +0000  /var/folders/1s/s3b8sz5x74x8j1jnxdbj5nqw0000gn/T/XcodeDistPipeline.fyS/Root/Applications/EconMP2Project.app/Contents/Frameworks/libswiftObjectiveC.dylib: signed Mach-O thin (x86_64) [com.apple.dt.runtime.swiftObjectiveC]
+2017-12-07 18:46:55 +0000  /usr/bin/codesign exited with 0
+2017-12-07 18:46:55 +0000  Applying entitlements delta for <IDEDistributionItem: 0x7fc809734910 'com.apple.dt.runtime.swiftQuartzCore' '<DVTFilePath:0x7fc7f510b460:'/Users/danielkim/Library/Developer/Xcode/Archives/2017-12-07/EconMP2Project 12-7-17, 1.46 PM.xcarchive/Products/Applications/EconMP2Project.app/Contents/Frameworks/libswiftQuartzCore.dylib'>'> from <IDEiCloudEntitlementsProcessor: 0x7fc7f63eeac0>: {
+}
+2017-12-07 18:46:55 +0000  Entitlements for <IDEDistributionItem: 0x7fc809734910 'com.apple.dt.runtime.swiftQuartzCore' '<DVTFilePath:0x7fc7f510b460:'/Users/danielkim/Library/Developer/Xcode/Archives/2017-12-07/EconMP2Project 12-7-17, 1.46 PM.xcarchive/Products/Applications/EconMP2Project.app/Contents/Frameworks/libswiftQuartzCore.dylib'>'>: {
+}
+2017-12-07 18:46:55 +0000  Writing entitlements for <IDEDistributionItem: 0x7fc809734910 'com.apple.dt.runtime.swiftQuartzCore' '<DVTFilePath:0x7fc7f510b460:'/Users/danielkim/Library/Developer/Xcode/Archives/2017-12-07/EconMP2Project 12-7-17, 1.46 PM.xcarchive/Products/Applications/EconMP2Project.app/Contents/Frameworks/libswiftQuartzCore.dylib'>'> to: /var/folders/1s/s3b8sz5x74x8j1jnxdbj5nqw0000gn/T/XcodeDistPipeline.fyS/entitlementsYXmYHd
+2017-12-07 18:46:55 +0000  Running /usr/bin/codesign '-vvv' '--force' '--sign' '106560A055490455F3CD19BBAD6F3DFE8A9F0A88' '--preserve-metadata=identifier,flags' '--entitlements' '/var/folders/1s/s3b8sz5x74x8j1jnxdbj5nqw0000gn/T/XcodeDistPipeline.fyS/entitlementsYXmYHd' '--requirements' '=designated => anchor apple generic  and identifier "$self.identifier" and ((cert leaf[field.1.2.840.113635.100.6.1.9] exists) or ( certificate 1[field.1.2.840.113635.100.6.2.6] exists and certificate leaf[field.1.2.840.113635.100.6.1.13] exists  and certificate leaf[subject.OU] = "72YYJ825DR" ))' '/var/folders/1s/s3b8sz5x74x8j1jnxdbj5nqw0000gn/T/XcodeDistPipeline.fyS/Root/Applications/EconMP2Project.app/Contents/Frameworks/libswiftQuartzCore.dylib'
+2017-12-07 18:46:55 +0000  /var/folders/1s/s3b8sz5x74x8j1jnxdbj5nqw0000gn/T/XcodeDistPipeline.fyS/Root/Applications/EconMP2Project.app/Contents/Frameworks/libswiftQuartzCore.dylib: replacing existing signature
+2017-12-07 18:46:55 +0000  /var/folders/1s/s3b8sz5x74x8j1jnxdbj5nqw0000gn/T/XcodeDistPipeline.fyS/Root/Applications/EconMP2Project.app/Contents/Frameworks/libswiftQuartzCore.dylib: signed Mach-O thin (x86_64) [com.apple.dt.runtime.swiftQuartzCore]
+2017-12-07 18:46:55 +0000  /usr/bin/codesign exited with 0
+2017-12-07 18:46:55 +0000  Applying entitlements delta for <IDEDistributionItem: 0x7fc7f5594100 'com.apple.dt.runtime.swiftXPC' '<DVTFilePath:0x7fc7f465ed80:'/Users/danielkim/Library/Developer/Xcode/Archives/2017-12-07/EconMP2Project 12-7-17, 1.46 PM.xcarchive/Products/Applications/EconMP2Project.app/Contents/Frameworks/libswiftXPC.dylib'>'> from <IDEiCloudEntitlementsProcessor: 0x7fc7f63c86f0>: {
+}
+2017-12-07 18:46:55 +0000  Entitlements for <IDEDistributionItem: 0x7fc7f5594100 'com.apple.dt.runtime.swiftXPC' '<DVTFilePath:0x7fc7f465ed80:'/Users/danielkim/Library/Developer/Xcode/Archives/2017-12-07/EconMP2Project 12-7-17, 1.46 PM.xcarchive/Products/Applications/EconMP2Project.app/Contents/Frameworks/libswiftXPC.dylib'>'>: {
+}
+2017-12-07 18:46:55 +0000  Writing entitlements for <IDEDistributionItem: 0x7fc7f5594100 'com.apple.dt.runtime.swiftXPC' '<DVTFilePath:0x7fc7f465ed80:'/Users/danielkim/Library/Developer/Xcode/Archives/2017-12-07/EconMP2Project 12-7-17, 1.46 PM.xcarchive/Products/Applications/EconMP2Project.app/Contents/Frameworks/libswiftXPC.dylib'>'> to: /var/folders/1s/s3b8sz5x74x8j1jnxdbj5nqw0000gn/T/XcodeDistPipeline.fyS/entitlementsIf5OzV
+2017-12-07 18:46:55 +0000  Running /usr/bin/codesign '-vvv' '--force' '--sign' '106560A055490455F3CD19BBAD6F3DFE8A9F0A88' '--preserve-metadata=identifier,flags' '--entitlements' '/var/folders/1s/s3b8sz5x74x8j1jnxdbj5nqw0000gn/T/XcodeDistPipeline.fyS/entitlementsIf5OzV' '--requirements' '=designated => anchor apple generic  and identifier "$self.identifier" and ((cert leaf[field.1.2.840.113635.100.6.1.9] exists) or ( certificate 1[field.1.2.840.113635.100.6.2.6] exists and certificate leaf[field.1.2.840.113635.100.6.1.13] exists  and certificate leaf[subject.OU] = "72YYJ825DR" ))' '/var/folders/1s/s3b8sz5x74x8j1jnxdbj5nqw0000gn/T/XcodeDistPipeline.fyS/Root/Applications/EconMP2Project.app/Contents/Frameworks/libswiftXPC.dylib'
+2017-12-07 18:46:55 +0000  /var/folders/1s/s3b8sz5x74x8j1jnxdbj5nqw0000gn/T/XcodeDistPipeline.fyS/Root/Applications/EconMP2Project.app/Contents/Frameworks/libswiftXPC.dylib: replacing existing signature
+2017-12-07 18:46:55 +0000  /var/folders/1s/s3b8sz5x74x8j1jnxdbj5nqw0000gn/T/XcodeDistPipeline.fyS/Root/Applications/EconMP2Project.app/Contents/Frameworks/libswiftXPC.dylib: signed Mach-O thin (x86_64) [com.apple.dt.runtime.swiftXPC]
+2017-12-07 18:46:55 +0000  /usr/bin/codesign exited with 0
+2017-12-07 18:46:55 +0000  Applying entitlements delta for <IDEDistributionItem: 0x7fc7f62c5f00 'com.apple.dt.runtime.swiftos' '<DVTFilePath:0x7fc7f54a6fa0:'/Users/danielkim/Library/Developer/Xcode/Archives/2017-12-07/EconMP2Project 12-7-17, 1.46 PM.xcarchive/Products/Applications/EconMP2Project.app/Contents/Frameworks/libswiftos.dylib'>'> from <IDEiCloudEntitlementsProcessor: 0x7fc7f633e940>: {
+}
+2017-12-07 18:46:55 +0000  Entitlements for <IDEDistributionItem: 0x7fc7f62c5f00 'com.apple.dt.runtime.swiftos' '<DVTFilePath:0x7fc7f54a6fa0:'/Users/danielkim/Library/Developer/Xcode/Archives/2017-12-07/EconMP2Project 12-7-17, 1.46 PM.xcarchive/Products/Applications/EconMP2Project.app/Contents/Frameworks/libswiftos.dylib'>'>: {
+}
+2017-12-07 18:46:55 +0000  Writing entitlements for <IDEDistributionItem: 0x7fc7f62c5f00 'com.apple.dt.runtime.swiftos' '<DVTFilePath:0x7fc7f54a6fa0:'/Users/danielkim/Library/Developer/Xcode/Archives/2017-12-07/EconMP2Project 12-7-17, 1.46 PM.xcarchive/Products/Applications/EconMP2Project.app/Contents/Frameworks/libswiftos.dylib'>'> to: /var/folders/1s/s3b8sz5x74x8j1jnxdbj5nqw0000gn/T/XcodeDistPipeline.fyS/entitlementsMdlUoQ
+2017-12-07 18:46:55 +0000  Running /usr/bin/codesign '-vvv' '--force' '--sign' '106560A055490455F3CD19BBAD6F3DFE8A9F0A88' '--preserve-metadata=identifier,flags' '--entitlements' '/var/folders/1s/s3b8sz5x74x8j1jnxdbj5nqw0000gn/T/XcodeDistPipeline.fyS/entitlementsMdlUoQ' '--requirements' '=designated => anchor apple generic  and identifier "$self.identifier" and ((cert leaf[field.1.2.840.113635.100.6.1.9] exists) or ( certificate 1[field.1.2.840.113635.100.6.2.6] exists and certificate leaf[field.1.2.840.113635.100.6.1.13] exists  and certificate leaf[subject.OU] = "72YYJ825DR" ))' '/var/folders/1s/s3b8sz5x74x8j1jnxdbj5nqw0000gn/T/XcodeDistPipeline.fyS/Root/Applications/EconMP2Project.app/Contents/Frameworks/libswiftos.dylib'
+2017-12-07 18:46:55 +0000  /var/folders/1s/s3b8sz5x74x8j1jnxdbj5nqw0000gn/T/XcodeDistPipeline.fyS/Root/Applications/EconMP2Project.app/Contents/Frameworks/libswiftos.dylib: replacing existing signature
+2017-12-07 18:46:55 +0000  /var/folders/1s/s3b8sz5x74x8j1jnxdbj5nqw0000gn/T/XcodeDistPipeline.fyS/Root/Applications/EconMP2Project.app/Contents/Frameworks/libswiftos.dylib: signed Mach-O thin (x86_64) [com.apple.dt.runtime.swiftos]
+2017-12-07 18:46:55 +0000  /usr/bin/codesign exited with 0
+2017-12-07 18:46:55 +0000  Applying entitlements delta for <IDEDistributionItem: 0x7fc7f559b720 'com.danielapps.EconMP2Project' '<DVTFilePath:0x7fc807dcf960:'/Users/danielkim/Library/Developer/Xcode/Archives/2017-12-07/EconMP2Project 12-7-17, 1.46 PM.xcarchive/Products/Applications/EconMP2Project.app'>'> from <IDEiCloudEntitlementsProcessor: 0x7fc7f63f0740>: {
+}
+2017-12-07 18:46:55 +0000  Entitlements for <IDEDistributionItem: 0x7fc7f559b720 'com.danielapps.EconMP2Project' '<DVTFilePath:0x7fc807dcf960:'/Users/danielkim/Library/Developer/Xcode/Archives/2017-12-07/EconMP2Project 12-7-17, 1.46 PM.xcarchive/Products/Applications/EconMP2Project.app'>'>: {
+    "com.apple.security.app-sandbox" = 1;
+    "com.apple.security.files.user-selected.read-only" = 1;
+}
+2017-12-07 18:46:55 +0000  Writing entitlements for <IDEDistributionItem: 0x7fc7f559b720 'com.danielapps.EconMP2Project' '<DVTFilePath:0x7fc807dcf960:'/Users/danielkim/Library/Developer/Xcode/Archives/2017-12-07/EconMP2Project 12-7-17, 1.46 PM.xcarchive/Products/Applications/EconMP2Project.app'>'> to: /var/folders/1s/s3b8sz5x74x8j1jnxdbj5nqw0000gn/T/XcodeDistPipeline.fyS/entitlements9a8j0V
+2017-12-07 18:46:55 +0000  Running /usr/bin/codesign '-vvv' '--force' '--sign' '106560A055490455F3CD19BBAD6F3DFE8A9F0A88' '--preserve-metadata=identifier,flags' '--entitlements' '/var/folders/1s/s3b8sz5x74x8j1jnxdbj5nqw0000gn/T/XcodeDistPipeline.fyS/entitlements9a8j0V' '--requirements' '=designated => anchor apple generic  and identifier "$self.identifier" and ((cert leaf[field.1.2.840.113635.100.6.1.9] exists) or ( certificate 1[field.1.2.840.113635.100.6.2.6] exists and certificate leaf[field.1.2.840.113635.100.6.1.13] exists  and certificate leaf[subject.OU] = "72YYJ825DR" ))' '/var/folders/1s/s3b8sz5x74x8j1jnxdbj5nqw0000gn/T/XcodeDistPipeline.fyS/Root/Applications/EconMP2Project.app'
+2017-12-07 18:46:55 +0000  /var/folders/1s/s3b8sz5x74x8j1jnxdbj5nqw0000gn/T/XcodeDistPipeline.fyS/Root/Applications/EconMP2Project.app: replacing existing signature
+2017-12-07 18:46:55 +0000  /var/folders/1s/s3b8sz5x74x8j1jnxdbj5nqw0000gn/T/XcodeDistPipeline.fyS/Root/Applications/EconMP2Project.app: signed app bundle with Mach-O thin (x86_64) [com.danielapps.EconMP2Project]
+2017-12-07 18:46:55 +0000  /usr/bin/codesign exited with 0
+2017-12-07 18:46:55 +0000  Processing step: IDEDistributionStreamingZipItemStep
+2017-12-07 18:46:55 +0000  Skipping step: IDEDistributionStreamingZipItemStep because it said so
+2017-12-07 18:46:55 +0000  Skipping step: IDEDistributionStreamingZipItemStep because it said so
+2017-12-07 18:46:55 +0000  Skipping step: IDEDistributionStreamingZipItemStep because it said so
+2017-12-07 18:46:55 +0000  Skipping step: IDEDistributionStreamingZipItemStep because it said so
+2017-12-07 18:46:55 +0000  Skipping step: IDEDistributionStreamingZipItemStep because it said so
+2017-12-07 18:46:55 +0000  Skipping step: IDEDistributionStreamingZipItemStep because it said so
+2017-12-07 18:46:55 +0000  Skipping step: IDEDistributionStreamingZipItemStep because it said so
+2017-12-07 18:46:55 +0000  Skipping step: IDEDistributionStreamingZipItemStep because it said so
+2017-12-07 18:46:55 +0000  Skipping step: IDEDistributionStreamingZipItemStep because it said so
+2017-12-07 18:46:55 +0000  Skipping step: IDEDistributionStreamingZipItemStep because it said so
+2017-12-07 18:46:55 +0000  Skipping step: IDEDistributionStreamingZipItemStep because it said so
+2017-12-07 18:46:55 +0000  Skipping step: IDEDistributionStreamingZipItemStep because it said so
+2017-12-07 18:46:55 +0000  Skipping step: IDEDistributionStreamingZipItemStep because it said so
+2017-12-07 18:46:55 +0000  Skipping step: IDEDistributionStreamingZipItemStep because it said so
+2017-12-07 18:46:55 +0000  Skipping step: IDEDistributionStreamingZipItemStep because it said so
+2017-12-07 18:46:55 +0000  Skipping step: IDEDistributionStreamingZipItemStep because it said so
+2017-12-07 18:46:55 +0000  Processing step: IDEDistributionSkipPackagingStep
+2017-12-07 18:46:55 +0000  Processing step: IDEDistributionCreateManifestStep
+2017-12-07 18:46:55 +0000  Skipping step: IDEDistributionCreateManifestStep because it said so

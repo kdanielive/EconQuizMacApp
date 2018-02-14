@@ -13,6 +13,13 @@
 		AB4F0DF31FD8CDC000079F6A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AB4F0DF11FD8CDC000079F6A /* Main.storyboard */; };
 		AB4F0DFF1FD8CDC000079F6A /* EconMP2ProjectTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB4F0DFE1FD8CDC000079F6A /* EconMP2ProjectTests.swift */; };
 		AB4F0E0A1FD8CDC000079F6A /* EconMP2ProjectUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB4F0E091FD8CDC000079F6A /* EconMP2ProjectUITests.swift */; };
+		AB4F0E191FD8DA3400079F6A /* QuizViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB4F0E171FD8DA3400079F6A /* QuizViewController.swift */; };
+		AB4F0E1A1FD8DA3400079F6A /* QuizViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = AB4F0E181FD8DA3400079F6A /* QuizViewController.xib */; };
+		AB4F0E1C1FD8DB0400079F6A /* Data.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB4F0E1B1FD8DB0400079F6A /* Data.swift */; };
+		AB5E98751FD9A22A00BDA39A /* QuizResultViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB5E98731FD9A22A00BDA39A /* QuizResultViewController.swift */; };
+		AB5E98761FD9A22A00BDA39A /* QuizResultViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = AB5E98741FD9A22A00BDA39A /* QuizResultViewController.xib */; };
+		AB5E98791FD9BECA00BDA39A /* ReviewViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB5E98771FD9BECA00BDA39A /* ReviewViewController.swift */; };
+		AB5E987A1FD9BECA00BDA39A /* ReviewViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = AB5E98781FD9BECA00BDA39A /* ReviewViewController.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -46,6 +53,13 @@
 		AB4F0E051FD8CDC000079F6A /* EconMP2ProjectUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = EconMP2ProjectUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		AB4F0E091FD8CDC000079F6A /* EconMP2ProjectUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EconMP2ProjectUITests.swift; sourceTree = "<group>"; };
 		AB4F0E0B1FD8CDC000079F6A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AB4F0E171FD8DA3400079F6A /* QuizViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuizViewController.swift; sourceTree = "<group>"; };
+		AB4F0E181FD8DA3400079F6A /* QuizViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = QuizViewController.xib; sourceTree = "<group>"; };
+		AB4F0E1B1FD8DB0400079F6A /* Data.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Data.swift; sourceTree = "<group>"; };
+		AB5E98731FD9A22A00BDA39A /* QuizResultViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuizResultViewController.swift; sourceTree = "<group>"; };
+		AB5E98741FD9A22A00BDA39A /* QuizResultViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = QuizResultViewController.xib; sourceTree = "<group>"; };
+		AB5E98771FD9BECA00BDA39A /* ReviewViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReviewViewController.swift; sourceTree = "<group>"; };
+		AB5E98781FD9BECA00BDA39A /* ReviewViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ReviewViewController.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -98,10 +112,17 @@
 			children = (
 				AB4F0DEB1FD8CDC000079F6A /* AppDelegate.swift */,
 				AB4F0DED1FD8CDC000079F6A /* ViewController.swift */,
+				AB4F0E171FD8DA3400079F6A /* QuizViewController.swift */,
+				AB5E98731FD9A22A00BDA39A /* QuizResultViewController.swift */,
+				AB5E98771FD9BECA00BDA39A /* ReviewViewController.swift */,
+				AB4F0E1B1FD8DB0400079F6A /* Data.swift */,
 				AB4F0DEF1FD8CDC000079F6A /* Assets.xcassets */,
 				AB4F0DF11FD8CDC000079F6A /* Main.storyboard */,
 				AB4F0DF41FD8CDC000079F6A /* Info.plist */,
 				AB4F0DF51FD8CDC000079F6A /* EconMP2Project.entitlements */,
+				AB4F0E181FD8DA3400079F6A /* QuizViewController.xib */,
+				AB5E98741FD9A22A00BDA39A /* QuizResultViewController.xib */,
+				AB5E98781FD9BECA00BDA39A /* ReviewViewController.xib */,
 			);
 			path = EconMP2Project;
 			sourceTree = "<group>";
@@ -231,8 +252,11 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				AB5E98761FD9A22A00BDA39A /* QuizResultViewController.xib in Resources */,
 				AB4F0DF01FD8CDC000079F6A /* Assets.xcassets in Resources */,
+				AB5E987A1FD9BECA00BDA39A /* ReviewViewController.xib in Resources */,
 				AB4F0DF31FD8CDC000079F6A /* Main.storyboard in Resources */,
+				AB4F0E1A1FD8DA3400079F6A /* QuizViewController.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -257,8 +281,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				AB4F0E191FD8DA3400079F6A /* QuizViewController.swift in Sources */,
+				AB5E98751FD9A22A00BDA39A /* QuizResultViewController.swift in Sources */,
+				AB5E98791FD9BECA00BDA39A /* ReviewViewController.swift in Sources */,
 				AB4F0DEE1FD8CDC000079F6A /* ViewController.swift in Sources */,
 				AB4F0DEC1FD8CDC000079F6A /* AppDelegate.swift in Sources */,
+				AB4F0E1C1FD8DB0400079F6A /* Data.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -353,7 +381,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				MACOSX_DEPLOYMENT_TARGET = 10.12;
+				MACOSX_DEPLOYMENT_TARGET = 10.6;
 				MTL_ENABLE_DEBUG_INFO = YES;
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = macosx;
@@ -404,7 +432,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				MACOSX_DEPLOYMENT_TARGET = 10.12;
+				MACOSX_DEPLOYMENT_TARGET = 10.6;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				SDKROOT = macosx;
 				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";

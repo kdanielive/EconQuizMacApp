@@ -13,6 +13,10 @@ class ViewController: NSViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
 
+        self.view.layer?.backgroundColor = CGColor.white
+        
+        UserDefaults.standard.removePersistentDomain(forName: Bundle.main.bundleIdentifier!)
+        
         // Do any additional setup after loading the view.
     }
 
